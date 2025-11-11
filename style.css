@@ -57,4 +57,20 @@ ul{
   width: 45%;
   height: 100%;
   background-color: aquamarine;
+  
+}
+.nav-right ul{
+  height: 100%;
+  gap: 15px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav-right ul li {
+  text-transform: uppercase;
+  padding: 0 15px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-weight: bold;
 }
