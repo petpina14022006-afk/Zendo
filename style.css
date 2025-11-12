@@ -45,7 +45,6 @@ ul{
 .nav-center {
   width: 20%;
   height: 100%;
-  background-color: rgb(127, 172, 255);
   padding: 15px 10px;
   display: flex;
   justify-content: end;
@@ -56,7 +55,6 @@ ul{
 .nav-right {
   width: 45%;
   height: 100%;
-  background-color: aquamarine;
   
 }
 .nav-right ul{
@@ -73,4 +71,34 @@ ul{
   height: 100%;
   align-items: center;
   font-weight: bold;
+}
+.nav-right ul li i{
+  font-size: 25px;
+}
+.nav-right ul li:hover{
+    background-color: aqua;
+}
+.btn-search{
+  display: flex;
+  height: 60%;
+  width: 250px;
+  align-items: center;
+  padding-left: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  
+}
+.btn-search input{
+  height: 100%;
+  width: 80%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.btn-search i{
+  width: 20%;
+
+}
+.nav-right ul li :hover: first-child{
+  background-color: transparent;
 }
