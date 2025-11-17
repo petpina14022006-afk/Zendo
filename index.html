@@ -25,36 +25,670 @@
     <link rel="stylesheet" href="./style.css" />
     <title>ZANDO</title>
   </head>
+  <style>
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
   <body>
     <nav class="nav-bar">
-        <nav class="navigation">
-            <div class="nav-left">
-                <ul>
-                    <li>WOMEN</li>
-                    <li>MEN</li>
-                    <li>BOYS</li>
-                    <li>GIRLS</li>
-                </ul>
-            </div>
-            <div class="nav-center">
-                <img src="https://zandokh.com/images/ZANDO-NEW-LOGO-2025.png" alt="">
-            </div>
-            <div class="nav-right">
-              <ul>
-                <li>
-                  <div class="btn-search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="search">
-                  </div>
-                </li>
-                <li><i class="fa-regular fa-bell"></i></li>
-                <li><i class="fa-regular fa-heart"></i></li>
-                <li><i class="fa-solid fa-bag-shopping"></i></li>
-                <li>login</li>
-                <li>register</li>
-              </ul>
-            </div>
-        </nav>
+      <nav class="container-width navigation">
+        <div class="nav-left">
+          <ul>
+            <li>WOMEN</li>
+            <li>MEN</li>
+            <li>BOYS</li>
+            <li>GIRLS</li>
+          </ul>
+        </div>
+        <div class="nav-center">
+          <img
+            src="https://zandokh.com/images/ZANDO-NEW-LOGO-2025.png"
+            alt=""
+          />
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li>
+              <div class="btn-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="search" />
+              </div>
+            </li>
+            <li><i class="fa-regular fa-bell"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-bag-shopping"></i></li>
+            <li>login</li>
+            <li>register</li>
+          </ul>
+        </div>
+      </nav>
     </nav>
+    <section class="container-width hero-section">
+      <swiper-container class="mySwiper">
+
+    <swiper-slide>
+      <div class="img hero">
+        <img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/November/Zando - Extra Sale_Main (2160x1066).png" data-n="1" draggable="true">
+        <div class="btn-container">
+        <button>Shop Man</button>
+        <button>Shop Woman</button>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="img hero">
+        <img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/November/ZANDO 70 OFF Main (2160x1066).png" data-n="1" draggable="true">
+        <div class="btn-container">
+          <button>Shop Man</button>
+          <button>Shop Woman</button>
+        </div>
+      </div>
+    </swiper-slide>
+    </section>
+    <!-- brand -->
+    <div class="container-width brand">
+      <div class="brand-img"><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/ZandoNoBorder.jpg" alt=""></div>
+      <div class="brand-img"><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/Ten11NoBorder.jpg" alt=""></div>
+      <div class="brand-img"><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/RoutineNoBorder.jpg" alt=""></div>
+      <div class="brand-img"><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/GatoniNoBorder.jpg" alt=""></div>
+      <div class="brand-img"><img src="https://zandokh.com/image/catalog/logo/361/361NoBorder.jpg" alt=""></div>
+      <div class="brand-img"><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/SisburmaTextNoBorder.jpg" alt=""></div>
+      <div class="brand-img"><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/PomeloTextNoBorder.jpg" alt=""></div>
+    </div>
+    <div class="container-width life-style">
+      <div><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/lifestify.jpg" alt=""></div>
+      <div><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/SportLife.jpg" alt=""></div>
+      <div><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Update%20Sep/Smart%20Casual.jpg" alt=""></div>
+    </div>
+    <div class="container-width top-bottom">
+      <div><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/Tops.jpg" alt=""></div>
+      <div><img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/Bottoms.jpg" alt=""></div>
+    </div>
+    <!-- main 1 -->
+    <div class="container-width list-card">
+          <div class=" text-button">
+            <h1>Business Look, TEN11 Attitude ✨</h1>
+            <button>Shop Mode</button>
+          </div>
+          
+          <div class="cards">
+            <!-- card1 -->
+            <div class="card1">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061287/ZANDO300720250037-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Regular Fitted Trouser</p>
+              </div>
+            </div>
+            <!-- card2 -->
+             <div class="card2">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-08/22225071668/ZD__9224-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Regular Blouse</p>
+              </div>
+            </div>
+            <!-- card3 -->
+             <div class="card3">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-09/21225081374%20Replace/ZD__0444-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Knitted Polo Shirts</p>
+              </div>
+            </div>
+            <!-- card4 -->
+            <div class="card4">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-09/22225061594/ZD__0538-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Straight Leg Jeans</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- main 2 -->
+    <div class="container-width list-card">
+          <div class=" text-button">
+            <h1>🔥 Unleash the Fiery Energy</h1>
+            <button>Shop Mode</button>
+          </div>
+          
+          <div class="cards">
+            <!-- card1 -->
+            <div class="card1">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-10/22225081611/ZD__9674-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Asymmetric Embellished T-Shirt</p>
+              </div>
+            </div>
+            <!-- card2 -->
+             <div class="card2">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-09/22225071522/ZD__1350-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Mini Denim Skirts</p>
+              </div>
+            </div>
+            <!-- card3 -->
+             <div class="card3">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-10/21225081377/ZD__1313-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Mesh Jersey T-Shirts With Printed</p>
+              </div>
+            </div>
+            <!-- card4 -->
+             <div class="card4">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-10/21225081381/ZD__0845-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Regular T-Shirts With Printed</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- main 3 -->
+     <div class="container-width list-card">
+          <div class=" text-button">
+            <h1>💥 Fashion Drop Up to 70% Off!</h1>
+            <button>Shop Mode</button>
+          </div>
+          
+          <div class="cards">
+            <!-- card1 -->
+            <div class="card1">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-05/22225031391/ZANDO2705202527715-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Flared Fit Trousers</p>
+              </div>
+            </div>
+            <!-- card2 -->
+             <div class="card2">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-07/21225041225/DSC08827-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Regular Printed T-Shirt</p>
+              </div>
+            </div>
+            <!-- card3 -->
+             <div class="card3">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-07/21225031256/Untitled%20Session1209-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Baggy Straight Fit Jean</p>
+              </div>
+            </div>
+            <!-- card4 -->
+             <div class="card4">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-07/22224121136/ZANDO190620257786-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Cropped Fitted Top</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- main 4 -->
+     <div class="container-width list-card">
+          <div class=" text-button">
+            <h1>Just In & Up to 50% Savings! 🌟</h1>
+            <button>Shop Mode</button>
+          </div>
+          
+          <div class="cards">
+            <!-- card1 -->
+            <div class="card1">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-07/21225031116/ZANDO03.07.20251677-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Wide Leg Trousers</p>
+              </div>
+            </div>
+            <!-- card2 -->
+             <div class="card2">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-06/11225041030/DSC06104-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Unisex T-Shirts With Printed</p>
+              </div>
+            </div>
+            <!-- card3 -->
+             <div class="card3">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Regular T-Shirt</p>
+              </div>
+            </div>
+            <!-- card4 -->
+             <div class="card4">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-08/21225051315/ZANDO200820258519-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Regular Denim Short</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- main 5 -->
+     <div class="container-width list-card">
+          <div class=" text-button">
+            <h1>💖 Crowd Favorites — Best Selling!</h1>
+            <button>Shop Mode</button>
+          </div>
+          
+          <div class="cards">
+            <!-- card1 -->
+            <div class="card1">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-10/2522506759%20Replace/1-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>TEN11 Tumbler</p>
+              </div>
+            </div>
+            <!-- card2 -->
+             <div class="card2">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-10/2522506758%20Replace/Main-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>TEN11 Tumbler</p>
+              </div>
+            </div>
+            <!-- card3 -->
+             <div class="card3">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-08/21225051298%20Replace/ZANDO270820259776-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Contrast Stict Long Sleeves T-Shirt</p>
+              </div>
+            </div>
+            <!-- card4 -->
+             <div class="card4">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-08/21225071309/ZANDO210820258723-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Relaxed Polo Shirts</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- main 6 -->
+     <div class="container-width list-card">
+          <div class=" text-button">
+            <h1>Hot Picks for Every Step 🔥💥</h1>
+            <button>Shop Mode</button>
+          </div>
+          
+          <div class="cards">
+            <!-- card1 -->
+            <div class="card1">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-10/22225071540/ZD__9214-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Block Loafers</p>
+              </div>
+            </div>
+            <!-- card2 -->
+             <div class="card2">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-10/5162501045/ZD__7979-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Performance Running Sneakers</p>
+              </div>
+            </div>
+            <!-- card3 -->
+             <div class="card3">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-10/5152501052/ZD__8031-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Skateboarding Sneakers</p>
+              </div>
+            </div>
+            <!-- card4 -->
+             <div class="card4">
+              <div class="img">
+                <img src="https://zandokh.com/image/cache/catalog/products/2025-10/5152501054/ZD__9926-cr-450x672.jpg" alt="">
+                <div class="discount">
+                  <button>-30%</button>
+                </div>
+              </div>
+              <div class="price-botton">
+                <div class="price">
+                  <p>US $100.00</p>
+                  <s>US $100.00</s>
+                </div>
+                <div class="botton">
+                   <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+              </div>
+              <div class="text-detail">
+                <p>Skateboarding Sneakers</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    </div>
+
   </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
