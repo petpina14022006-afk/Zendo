@@ -279,6 +279,28 @@ ul {
   height: 5%;
   padding: 0 20px;
 }
+.card1 .color{
+  width: 100%;
+  height: 5%;
+  padding: 0 20px;
+  
+}
+.card1 .color ul{
+  display: flex;
+  gap: 10px;
+}
+.card1 .color li:first-child{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(115, 137, 137);
+}
+.card1 .color li:last-child{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(29, 167, 167);
+}
 
 /* card2 */
 
@@ -442,7 +464,7 @@ ul {
 .card4 .img img {
   width: 100%;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 15px; 
 }
 .card4 .img .discount {
   position: absolute;
@@ -474,6 +496,7 @@ ul {
 .card4 .price-botton .price p {
   font-size: 20px;
   color: red;
+  font-weight: bold ;
 }
 .card4 .price-botton .price s {
   font-size: 20px;
@@ -495,5 +518,6 @@ ul {
   height: 5%;
   padding: 0 20px;
 }
+
 
 
