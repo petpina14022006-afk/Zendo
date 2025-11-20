@@ -108,7 +108,6 @@ ul {
 }
 .hero-section {
   height: 800px;
-  background-color: aqua;
   margin: auto;
 }
 .img-hero {
@@ -204,7 +203,6 @@ ul {
   gap: 1%;
 }
 .cards div {
-  width: calc(100% / 4);
   height: 100%;
 }
 
@@ -232,6 +230,13 @@ ul {
   position: absolute;
   top: 10px;
   left: 3%;
+}
+.card1 .img .brand {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
 }
 .card1 .img .discount button {
   padding: 4px 15px;
@@ -278,24 +283,24 @@ ul {
   width: 100%;
   height: 5%;
   padding: 0 20px;
+   
 }
-.card1 .color{
+.card1 .color {
   width: 100%;
   height: 5%;
   padding: 0 20px;
-  
 }
-.card1 .color ul{
+.card1 .color ul {
   display: flex;
   gap: 10px;
 }
-.card1 .color li:first-child{
+.card1 .color li:first-child {
   width: 15px;
   height: 15px;
   border-radius: 50%;
   background-color: rgb(115, 137, 137);
 }
-.card1 .color li:last-child{
+.card1 .color li:last-child {
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -334,6 +339,13 @@ ul {
   font-weight: bold;
   background-color: red;
   color: white;
+}
+.card2 .img .brand {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
 }
 .card2 .price-botton {
   width: 100%;
@@ -407,6 +419,13 @@ ul {
   background-color: red;
   color: white;
 }
+.card3 .img .brand {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+}
 .card3 .price-botton {
   width: 100%;
   height: 5%;
@@ -464,7 +483,7 @@ ul {
 .card4 .img img {
   width: 100%;
   height: 100%;
-  border-radius: 15px; 
+  border-radius: 15px;
 }
 .card4 .img .discount {
   position: absolute;
@@ -478,6 +497,13 @@ ul {
   font-weight: bold;
   background-color: red;
   color: white;
+}
+.card4 .img .brand {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
 }
 .card4 .price-botton {
   width: 100%;
@@ -496,7 +522,7 @@ ul {
 .card4 .price-botton .price p {
   font-size: 20px;
   color: red;
-  font-weight: bold ;
+  font-weight: bold;
 }
 .card4 .price-botton .price s {
   font-size: 20px;
@@ -518,6 +544,14 @@ ul {
   height: 5%;
   padding: 0 20px;
 }
-
-
-
+.footer{
+  background-color: aqua;
+  height: 400px;
+  display: flex;
+  margin-top: 30px;
+}
+.footer > div{
+  width: 20%;
+  height: 100%;
+  background-color: chartreuse ;
+}
