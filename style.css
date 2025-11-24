@@ -545,13 +545,75 @@ ul {
   padding: 0 20px;
 }
 .footer{
-  background-color: aqua;
-  height: 400px;
+  height: 180px;
   display: flex;
   margin-top: 30px;
+  padding: 20px;
+  padding-right: 20%;
+  
 }
-.footer > div{
+.footer > .zando-app{
   width: 20%;
   height: 100%;
-  background-color: chartreuse ;
+}
+.footer .zando-app .title{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer .zando-app .item{
+  width: 100%;
+  height: 90%;
+}
+.footer .zando-app .item .qr{
+  margin-top: 5px;
+  width: 35%;
+  height: 30%;
+}
+.footer .zando-app .item .qr img{
+  width: 140%;
+  height: 250%;
+}
+.footer .zando-app .item .logo-text{
+height: 10%;
+display: flex;
+gap: 10px;
+margin-top: 10px;
+}
+.footer .zando-app .item .logo-text img{
+  width: 20px;
+}
+.footer .zando-app .item .logo-text span{
+  font-size: 17px;
+}
+.footer .zando-app .item .logo-text .logo{
+  font-size: 17px;
+}
+.accept{
+  height: 150px;
+}
+.accept .item{
+  width: calc(100%/4);
+  height: 100%;
+}
+.accept .item .title{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.accept .item .img-card{
+  width: 100%;
+  height: 100%%;
+}
+.accept .item .img-card img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
